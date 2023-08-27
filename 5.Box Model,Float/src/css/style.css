@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* .text{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    overflow-y: scroll;
+} */
+
+
+/* 
+.first{
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    background-color: red;
+    border: 10px solid;
+    margin-bottom: 10px;
+
+} */
+
+/* tWidth=width+ 2*padding+2*border */
+
+/* first total width 460px */
+
+/* .second{
+    
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    background-color: blue;
+    border: 10px solid;
+    box-sizing: border-box;
+} */
+
+/* second total width 400px */
+
+a{
+    text-decoration: none;
+}
+.header-all{
+    background-color: aqua;
+    padding: 20px;
+    overflow-y: hidden;
+}
+
+
+.logo{
+    float: left;
+}
+
+.navbar{
+    float: right;
+}
+
+.navbar a{
+    margin-right: 20px;
+}
+
+.card{
+    width: 30%;
+    float: left;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.card img{
+    width: 100%;
+}
+

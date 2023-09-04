@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tamerlan-Italic;
+}
+
+@font-face {
+    font-family: Tamerlan-Italic;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+/* 
+i{
+    font-size: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+
+
+svg{
+    font-size: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    fill: white;
+} */
+
+
+
+#Vip-offers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.card{
+    width: 22%;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.card .prod-image img{
+    width: 100%;
+}

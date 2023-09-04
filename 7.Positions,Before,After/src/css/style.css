@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+position : static, relative, absolute, fixed, sticky
+*/
+
+
+/* .first{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    position: relative;
+}
+
+.second{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+    transition: 3s;
+}
+
+
+.first:hover .second{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+
+/* body{
+    width: 100%;
+}
+
+i{
+   position: absolute;
+   font-size: 40px;
+   background-color: aqua; 
+   bottom:0;
+   right: 40px;
+} */
+
+
+.container{
+    padding: 0px 70px;
+    background-color: aqua;
+}
+
+.first{
+    height: 500px;
+    background-color: red;
+}
+
+h1{
+    position: relative;
+    /* display: inline-block; */
+}
+
+h1::before{
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    content: "";
+   
+    height: 4px;
+    background-color: red;
+    width: 0;
+    /* width: 40px; */
+    transition: 1s;
+
+}
+
+
+h1:hover::before{
+    width: 100%;
+}
+
+
+a{
+    margin-left: 40px;
+    margin-top: 20px;
+    display: inline-block;
+    background-color: black;
+    border: 2px solid red;
+    padding: 20px 30px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    transition: 1s;
+}
+
+a::before{
+content: "";
+position: absolute;
+top: 0;
+right: 0;   
+width: 0;
+height: 100%;
+background-color: red;
+z-index: -1;
+transition: 1s;
+
+}
+
+
+a:hover::before{
+    width: 100%;
+}
+
+a:hover{
+    transform: translatey(20px);
+
+}
+
+
+

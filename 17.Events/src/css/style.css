@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+input {
+    outline: none;
+    border: none;
+}
+
+
+.inpPass {
+    border: 2px solid red;
+    display: inline-block;
+    padding: 20px;
+}
+
+
+#eye {
+    cursor: pointer;
+} */
+
+/* input{
+    width: 100%;
+    padding: 30px;
+} */
+
+
+.board {
+    background-color: gainsboro;
+    width: 100%;
+    height: 300px;
+    position: relative;
+  }
+
+  .board .snake {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }

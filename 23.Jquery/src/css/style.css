@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custom-card{
+    border: 1px solid #ececec;
+    padding: 10px;
+}
+
+.custom-card .img-div img{
+    width: 100%;
+}
+.content h3{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content h2{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+}
+
+.add-basket-btn{
+    width: 100%;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 5px;
+    border-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
